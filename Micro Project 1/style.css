@@ -26,7 +26,8 @@ footer{
     background-color: #282828;
     justify-content: space-around;
     align-items: baseline;
-    text-decoration: #fff;
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -37,7 +38,6 @@ body {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  margin: 25px;
 }
 
 p{
@@ -48,8 +48,9 @@ p{
 }
 
 .note{
-    font-size: 10px;
-    text-decoration-color: #fff;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 50;
 }
 
 .small{
