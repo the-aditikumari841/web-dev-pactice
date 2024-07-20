@@ -1,0 +1,26 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.top{
+    font-style: Inter;
+    display: flex;
+    
+    background-color: #FFCD9E;
+    justify-content: space-around;
+}
+
+.innertop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer{
+    display:flex;
+    background-color: #282828;
+    justify-content: space-around;
+    align-items: baseline;
+}
