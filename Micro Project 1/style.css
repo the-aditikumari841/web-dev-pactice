@@ -5,11 +5,17 @@
     
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
 .top{
     font-style: Inter;
     display: flex;
     background-color: #FFCD9E;
     justify-content: space-around;
+    text-align: left;
 }
 
 .innertop{
@@ -18,22 +24,6 @@
     justify-content: space-around;
     margin: 5%;
 
-}
-
-footer{
-    display:flex;
-    background-color: #282828;
-    justify-content: space-around;
-    align-items: baseline;
-    color: #fff;
-    text-decoration: none;
-}
-
-
-
-body {
-  font-family: 'Inter', sans-serif;
-  text-align: left;
 }
 
 p{
@@ -69,34 +59,57 @@ p{
 
 }
 
-
 input{
     padding: 10px;
     border-radius: 5px;
     border-width: 3px;
     border-color: black;
     border-style: solid;
+    text-decoration-color: #888888;
 }
 
-
-
-img{
+.image{
     height:550px;
     width: 550px;
 }
 
 form{
-    padding: 10px 0px 10px 0px;
+    padding: 25px 0px 10px 0px;
 }
 
 button{
     border-color: #282828;
     border-radius: 5px;
-    border-width: 10px;
-    padding: 12px 20px 12px 20px;
+    border-width: 14px;
+    padding: 13px 30px 13px 30px;
     background-color: #282828;
     color: #fff;
     box-shadow: none;
     border-style: none;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+
+footer{
+    display:flex;
+    background-color: #282828;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+
+li{
+    font-weight: 100;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 6px;
+}
+
+.left, .right{
+    margin:15px;
+}
+
+.right{
+    text-align: right;
 }
